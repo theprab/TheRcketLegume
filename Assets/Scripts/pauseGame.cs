@@ -21,17 +21,15 @@ public class pauseGame : MonoBehaviour
     {
         if (isPaused)
         {
-            SceneManager.LoadScene("Intermission", LoadSceneMode.Additive);
             Time.timeScale = 0f;
+            SceneManager.LoadScene("Intermission", LoadSceneMode.Additive);
+
         }
         else
         {
-            SceneManager.UnloadSceneAsync("Intermission");
             Time.timeScale = 1;
+            SceneManager.UnloadSceneAsync("Intermission");
         }
-    }
-    public void ResumeGame() {
-        Time.timeScale = 1;
     }
 
     public void QuitGame()
