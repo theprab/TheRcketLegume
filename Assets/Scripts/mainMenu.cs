@@ -8,6 +8,10 @@ public class mainMenu : MonoBehaviour
     public void PlayGame() {
         SceneManager.LoadScene("rktlg");
     }
+    public void StartMenu()
+    {
+        SceneManager.LoadScene("start");
+    }
     public void QuitGame() {
         SceneManager.LoadScene("Quit");
     }
