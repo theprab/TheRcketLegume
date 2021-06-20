@@ -6,12 +6,18 @@ using UnityEngine;
 public class pauseGame : MonoBehaviour
 {
     public static bool isPaused = false;
+    public GameObject myMenu;
+    void Start()
+    {
+        myMenu.SetActive(false);
+    }
 
     void Update()
     {
         //pause
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log("1");
             isPaused = true;
             PauseGame();
         }
@@ -21,17 +27,19 @@ public class pauseGame : MonoBehaviour
     {
         if (isPaused)
         {
-            SceneManager.LoadScene("Intermission", LoadSceneMode.Additive);
             Time.timeScale = 0f;
+            myMenu.SetActive(true);
+            Debug.Log("2");
+            //SceneManager.LoadScene("Intermission", LoadSceneMode.Additive);
+
         }
         else
         {
-            SceneManager.UnloadSceneAsync("Intermission");
+            Debug.Log("3");
             Time.timeScale = 1;
+            myMenu.SetActive(false);
+            //SceneManager.UnloadScene("Intermission");
         }
-    }
-    public void ResumeGame() {
-        Time.timeScale = 1;
     }
 
     public void QuitGame()
