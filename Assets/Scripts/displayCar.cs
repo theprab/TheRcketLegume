@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class displayCar : MonoBehaviour
 {
-    void Start()
-    {
-    }
-
+    public GameObject car;
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0.0f, 50 * Time.deltaTime, 0.0f);
+        //Debug.Log(car.name);
+        car.transform.Rotate(0.0f, 50 * Time.deltaTime, 0.0f, Space.World);
     }
 }
