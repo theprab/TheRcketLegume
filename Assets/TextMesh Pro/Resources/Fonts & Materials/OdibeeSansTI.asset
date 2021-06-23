@@ -55,11 +55,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: OdibeeSansTITLE
+  m_Name: OdibeeSansTI
   m_EditorClassIdentifier: 
-  hashCode: -1850757144
+  hashCode: -2029992558
   material: {fileID: 5186196869109130239}
-  materialHashCode: 1881868616
+  materialHashCode: 1653424882
   m_Version: 1.1.0
   m_SourceFontFileGUID: beb525254f72d4f94b716236e7cd519a
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: beb525254f72d4f94b716236e7cd519a, type: 3}
@@ -1421,12 +1421,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.1
+    - _OutlineWidth: 0.083
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 0.73125
-    - _ScaleRatioC: 0.5757874
+    - _ScaleRatioC: 0.24375
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -1439,10 +1439,10 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-    - _UnderlayDilate: 0.36
-    - _UnderlayOffsetX: 0.81
-    - _UnderlayOffsetY: -0.26
-    - _UnderlaySoftness: 0.1
+    - _UnderlayDilate: 1
+    - _UnderlayOffsetX: 1
+    - _UnderlayOffsetY: -0.82
+    - _UnderlaySoftness: 1
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
@@ -1450,12 +1450,12 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+    - _FaceColor: {r: 1, g: 0.9367616, b: 0.9103774, a: 1}
     - _GlowColor: {r: 0.58145976, g: 0.3149574, b: 0.92549014, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0.16, g: 0.062399995, b: 0.13722664, a: 1}
+    - _OutlineColor: {r: 0.3301887, g: 0.044590723, b: 0.035822365, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0.14144997, g: 0.0782, b: 0.23, a: 1}
+    - _UnderlayColor: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 1}
   m_BuildTextureStacks: []

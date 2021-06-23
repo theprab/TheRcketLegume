@@ -9,6 +9,6 @@ public class displayCar : MonoBehaviour
     void Update()
     {
         //Debug.Log(car.name);
-        car.transform.Rotate(0.0f, 50 * Time.deltaTime, 0.0f, Space.World);
+        car.transform.Rotate(0.0f, 2, 0.0f, Space.World);
     }
 }

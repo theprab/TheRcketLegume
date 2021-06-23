@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class pauseGame : MonoBehaviour
 {
-    public static bool isPaused = false;
+    public bool isPaused = false;
     public GameObject myMenu;
     void Start()
     {
@@ -18,7 +18,7 @@ public class pauseGame : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("1");
-            isPaused = true;
+            isPaused = !isPaused;
             PauseGame();
         }
     }
@@ -30,16 +30,19 @@ public class pauseGame : MonoBehaviour
             Time.timeScale = 0f;
             myMenu.SetActive(true);
             Debug.Log("2");
-            //SceneManager.LoadScene("Intermission", LoadSceneMode.Additive);
 
         }
         else
         {
-            Debug.Log("3");
             Time.timeScale = 1;
             myMenu.SetActive(false);
-            //SceneManager.UnloadScene("Intermission");
         }
+    }
+
+    public void UnPause() {
+        Debug.Log("3");
+        Time.timeScale = 1;
+        myMenu.SetActive(false);
     }
 
     public void QuitGame()
