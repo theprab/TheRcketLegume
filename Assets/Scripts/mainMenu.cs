@@ -15,4 +15,10 @@ public class mainMenu : MonoBehaviour
     public void QuitGame() {
         SceneManager.LoadScene("Quit");
     }
+    public void LoseStory() {
+        SceneManager.LoadScene("lose-story");
+    }
+    public void WinStory() {
+        SceneManager.LoadScene("win-story");
+    }
 }

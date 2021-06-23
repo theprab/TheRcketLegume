@@ -32,6 +32,8 @@ public class pauseGame : MonoBehaviour
             Debug.Log("2");
 
         }
+        //this else was never being called, so the game was never being unpaused
+        //thanks for that insight Ellie Garguilio
         else
         {
             Time.timeScale = 1;

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/welcome.unity
+    guid: fb8ce40e01e9b40b1bcc4eda59311450
+  - enabled: 1
     path: Assets/Scenes/start.unity
     guid: 2e88e7ba388e44620a074a4a5fa17217
   - enabled: 1
@@ -14,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/win.unity
     guid: cb890487c764749a888bdbfa10dc21ad
+  - enabled: 1
+    path: Assets/Scenes/win-story.unity
+    guid: b59ff1306ff3d45a0893bdffa65e21ec
+  - enabled: 1
+    path: Assets/Scenes/lose.unity
+    guid: ab4748f7492484aeb8228fe36da8929c
+  - enabled: 1
+    path: Assets/Scenes/lose-story.unity
+    guid: d6eddf67e81e2432daa0a171967e88ca
   - enabled: 1
     path: Assets/Scenes/Quit.unity
     guid: 308a9d456240c4ae2831c467b619d3b2
