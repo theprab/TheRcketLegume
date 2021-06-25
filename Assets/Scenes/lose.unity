@@ -1242,6 +1242,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1967ac3c0aea4dbdab92d5ce46933cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  what: {fileID: 945751215}
+  initial: {r: 0.89411765, g: 0.39215687, b: 1, a: 0.8666667}
+  secondary: {r: 1, g: 0.03137255, b: 0.79607844, a: 0.6666667}
+--- !u!114 &945751215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6328635133951751891, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
+  m_PrefabInstance: {fileID: 1815301570}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945751212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1004403036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
-      value: 0
+      value: 0.69411767
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_Colors.m_DisabledColor.a
@@ -2176,7 +2190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.a
-      value: 0.19215687
+      value: 0.21176471
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -2277,6 +2291,10 @@ PrefabInstance:
     - target: {fileID: 6328635133951751889, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_LocalScale.z
       value: 3.118545
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328635133951751891, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6328635135097597404, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_IsActive
