@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -35,7 +36,7 @@ public class ballCheck : MonoBehaviour
 
         }
 
-        if (homeGoalScored() == true)
+        if (homeGoalScored())
         {
             homeScore++;
             Debug.Log("Home: " + homeScore);
@@ -43,13 +44,20 @@ public class ballCheck : MonoBehaviour
             ball.MovePosition(newPos);
             ball.velocity = Vector3.zero;
         }
-        if (awayGoalScored() == true)
+        if (awayGoalScored())
         {
             awayScore++;
             Debug.Log("Away: " + awayScore);
             Vector3 newPos = new Vector3(0.0f, 12.2f, 0.0f);
             ball.MovePosition(newPos);
             ball.velocity = Vector3.zero;
+        }
+
+        if (homeScore >= 1) {
+            SceneManager.LoadScene("lose");
+        }
+        if (awayScore >= 1) {
+            SceneManager.LoadScene("win");
         }
 
         homeScoreDisplay.text = "Home: " + homeScore;

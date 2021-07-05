@@ -20,7 +20,7 @@ public class moveCar : MonoBehaviour
         //boost
         if (Input.GetMouseButtonDown(0))
         {
-            car.AddForce(this.transform.forward * Input.GetAxis("Vertical") * drivingForce / 2);
+            car.AddForce(this.transform.forward * Input.GetAxis("Vertical") * drivingForce / 1.5f);
         }
 
         //jump

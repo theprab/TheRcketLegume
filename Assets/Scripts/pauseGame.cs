@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class pauseGame : MonoBehaviour
 {
     public bool isPaused = false;
     public GameObject myMenu;
+
     void Start()
     {
         myMenu.SetActive(false);
