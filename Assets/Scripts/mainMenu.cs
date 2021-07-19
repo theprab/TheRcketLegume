@@ -19,6 +19,10 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("lose-story");
     }
     public void WinStory() {
-        SceneManager.LoadScene("win-story");
+        SceneManager.LoadScene("win-story-1");
+    }
+    public void WinStoryTwo()
+    {
+        SceneManager.LoadScene("win-story-2");
     }
 }

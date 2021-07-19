@@ -55,11 +55,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: OdibeeSans-WINNER2
+  m_Name: OdibeeSans-WINNER2 1
   m_EditorClassIdentifier: 
-  hashCode: -1627468135
+  hashCode: 1508693128
   material: {fileID: 5186196869109130239}
-  materialHashCode: -1105028711
+  materialHashCode: -514346200
   m_Version: 1.1.0
   m_SourceFontFileGUID: beb525254f72d4f94b716236e7cd519a
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: beb525254f72d4f94b716236e7cd519a, type: 3}
@@ -1643,7 +1643,7 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.14
+    - _OutlineWidth: 0.1
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9
@@ -1675,7 +1675,7 @@ Material:
     - _FaceColor: {r: 3.8117647, g: 3.8117647, b: 3.8117647, a: 1}
     - _GlowColor: {r: 0.58145976, g: 0.3149574, b: 0.92549014, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0.6792453, g: 0.39409044, b: 0.605105, a: 1}
+    - _OutlineColor: {r: 0.5471698, g: 0.15744035, b: 0.44612885, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
