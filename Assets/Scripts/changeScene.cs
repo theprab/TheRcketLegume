@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour
 {
-    public void WinGameTwo()
+    public void WinStory2()
     {
-        SceneManager.LoadScene("win-game-two");
+        SceneManager.LoadScene("win-story-2");
     }
 }

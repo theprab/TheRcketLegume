@@ -3555,6 +3555,7 @@ GameObject:
   - component: {fileID: 921868451}
   - component: {fileID: 921868450}
   - component: {fileID: 921868449}
+  - component: {fileID: 921868452}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3643,6 +3644,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &921868452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921868447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92fa7c700f4a49b9a308d644076e5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &928894370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3661,7 +3674,7 @@ PrefabInstance:
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 921868452}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
@@ -3708,7 +3721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751888, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WinStory
+      value: WinStory2
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751889, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3857,18 +3870,6 @@ MonoBehaviour:
   what: {fileID: 928894375}
   initial: {r: 0.40392157, g: 0.60784316, b: 0.8980392, a: 0.45490196}
   secondary: {r: 0.49019608, g: 0.8156863, b: 0.5882353, a: 0.5176471}
---- !u!114 &928894374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928894372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26e34ab5555c14f879ad755b2994d404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &928894375 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6328635133951751891, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
