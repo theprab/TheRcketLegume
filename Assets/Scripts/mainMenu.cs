@@ -15,14 +15,19 @@ public class mainMenu : MonoBehaviour
     public void QuitGame() {
         SceneManager.LoadScene("Quit");
     }
-    public void LoseStory() {
-        SceneManager.LoadScene("lose-story");
-    }
     public void WinStory() {
         SceneManager.LoadScene("win-story-1");
     }
     public void WinStory2()
     {
         SceneManager.LoadScene("win-story-2");
+    }
+    public void LoseStory()
+    {
+        SceneManager.LoadScene("lose-story-1");
+    }
+    public void LoseStory2()
+    {
+        SceneManager.LoadScene("lose-story-2");
     }
 }
