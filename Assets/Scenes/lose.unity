@@ -1243,8 +1243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   what: {fileID: 945751215}
-  initial: {r: 0.89411765, g: 0.39215687, b: 1, a: 0.8666667}
-  secondary: {r: 1, g: 0.03137255, b: 0.79607844, a: 0.6666667}
+  initial: {r: 0.9310408, g: 0.514151, b: 1, a: 0.8156863}
+  secondary: {r: 1, g: 0.03137255, b: 0.79607844, a: 0.49803922}
 --- !u!114 &945751215 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6328635133951751891, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
@@ -2311,6 +2311,14 @@ PrefabInstance:
     - target: {fileID: 6328635135097597406, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_text
       value: '- now what? -'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328635135097597406, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328635135097597406, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6328635135097597407, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_LocalRotation.y

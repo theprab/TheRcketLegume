@@ -268,6 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8941839872888219814, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
+    - {fileID: 2604388014289546925, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
 --- !u!1 &393501254
 GameObject:
@@ -478,6 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8941839872888219814, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
+    - {fileID: 2604388014289546925, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
 --- !u!1001 &631142471
 PrefabInstance:
@@ -1414,6 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8941839872888219814, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
+    - {fileID: 2604388014289546925, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
 --- !u!1 &1229272343
 GameObject:
@@ -2477,6 +2480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8941839872888219814, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
+    - {fileID: 2604388014289546925, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cbb8e6d260264894d9ad98063dbb89ea, type: 3}
 --- !u!1001 &1877237102
 PrefabInstance:
@@ -2857,19 +2861,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.78, y: 1.11, z: 4.39}
   m_Center: {x: 0, y: 0.55, z: 0}
---- !u!54 &2054914745
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2054914743}
-  serializedVersion: 2
-  m_Mass: 2
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
