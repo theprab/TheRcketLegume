@@ -732,7 +732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   what: {fileID: 631142474}
-  initial: {r: 0.40392157, g: 0.60784316, b: 0.8980392, a: 0.45490196}
+  initial: {r: 0.40392157, g: 0.60784316, b: 0.8980392, a: 0.6156863}
   secondary: {r: 0.49019608, g: 0.8156863, b: 0.5882353, a: 0.5176471}
 --- !u!114 &631142476
 MonoBehaviour:

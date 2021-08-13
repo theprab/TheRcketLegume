@@ -16,6 +16,6 @@ public class buttonPulse : MonoBehaviour
         what.GetComponent<Image>().color = LerpButton();
 
     }
-    public Color LerpButton() => Color.Lerp(initial, secondary, Mathf.Sin(Time.unscaledTime * 2));
+    public Color LerpButton() => Color.Lerp(initial, secondary, Mathf.Sin(Time.unscaledTime * 1.25f));
 
 }
