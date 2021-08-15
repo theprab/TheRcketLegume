@@ -265,6 +265,26 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 0
+--- !u!1 &97040387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 749176736197996515, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
+  m_PrefabInstance: {fileID: 1413221183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &97040390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97040387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bff2a4afe1d412f83ba10423dd6913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text1: {fileID: 97040387}
+  text2: {fileID: 378767756}
+  text3: {fileID: 652807809}
 --- !u!1 &98700999
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374346409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1337.5, z: 0}
+  m_LocalPosition: {x: 0, y: -1381, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1317146508}
@@ -702,13 +722,14 @@ GameObject:
   - component: {fileID: 378767757}
   - component: {fileID: 378767759}
   - component: {fileID: 378767758}
+  - component: {fileID: 378767760}
   m_Layer: 0
   m_Name: story
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &378767757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -749,8 +770,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'The skies will gray with the ash of cities crumbling and forests boiling.
-    The aliens are slowly raising the temperature on Earth, reveling in the chaos
-    they have created.
+
+    The
+    aliens are slowly raising the temperature on Earth, reveling in the chaos they
+    have created.
 
 '
   m_isRightToLeft: 0
@@ -779,21 +802,21 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 6
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 60
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -829,6 +852,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378767756}
   m_CullTransparentMesh: 0
+--- !u!114 &378767760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378767756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bff2a4afe1d412f83ba10423dd6913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text1: {fileID: 97040387}
+  text2: {fileID: 378767756}
+  text3: {fileID: 652807809}
 --- !u!1 &596804287
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,13 +1003,14 @@ GameObject:
   - component: {fileID: 652807810}
   - component: {fileID: 652807812}
   - component: {fileID: 652807811}
+  - component: {fileID: 652807813}
   m_Layer: 0
   m_Name: end of earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &652807810
 RectTransform:
   m_ObjectHideFlags: 0
@@ -981,14 +1020,14 @@ RectTransform:
   m_GameObject: {fileID: 652807809}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 24.215046}
-  m_LocalScale: {x: 0.60089886, y: 0.60089886, z: 0.60089856}
+  m_LocalScale: {x: 0.76581615, y: 0.76581615, z: 0.7658158}
   m_Children: []
   m_Father: {fileID: 692546408}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.539999, y: -85.4985}
+  m_AnchoredPosition: {x: -3.539999, y: -42.74925}
   m_SizeDelta: {x: 274.39215, y: 95.30475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &652807811
@@ -1054,7 +1093,7 @@ MonoBehaviour:
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 45
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -1090,6 +1129,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652807809}
   m_CullTransparentMesh: 0
+--- !u!114 &652807813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652807809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bff2a4afe1d412f83ba10423dd6913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text1: {fileID: 97040387}
+  text2: {fileID: 378767756}
+  text3: {fileID: 652807809}
 --- !u!1 &692546407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +2046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996514, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 5.53
+      value: -20.519905
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996514, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2028,15 +2082,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996514, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.71765226
+      value: 0.7212123
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996514, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.71765226
+      value: 0.7212123
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996514, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.717652
+      value: 0.721212
       objectReference: {fileID: 0}
     - target: {fileID: 749176736197996515, guid: c78d60b40958249f3aae5ebdb0c119ff, type: 3}
       propertyPath: m_Name
