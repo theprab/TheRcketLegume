@@ -6,4 +6,4 @@ Welcome to Stadium Rcket, a floating arena built by aliens to host soccer games 
 The only catch is that if they lose, they and Earth will be damed to a fate of death and destruction. *No pressure, really*
 
 ## What is Rcket Legume?
-Rcket Legume is a whirlwind of ideas thrown into one that became a 3D cars soccer game and a passion project of mine that I kept adding to as inspiration struck.
+Rcket Legume is a whirlwind of ideas thrown into one that became a 3D car soccer game and a passion project of mine that I kept adding to as inspiration struck.
