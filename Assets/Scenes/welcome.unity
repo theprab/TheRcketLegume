@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 899682772}
-  spinSpeed: 1
+  spinSpeed: 0.5
 --- !u!65 &899682775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1387,7 +1387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751889, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 6328635133951751889, guid: bb052108d5c6e48b1ad7ef8e983bb518, type: 3}
       propertyPath: m_SizeDelta.x
